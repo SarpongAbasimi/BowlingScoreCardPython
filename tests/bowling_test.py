@@ -30,6 +30,13 @@ class Test_Bowling:
         with pytest.raises(Exception) as e:
             assert bowling.roll(4)
         assert 'You can only pin 10 bolls in a roll' in str(e.value)
+    
+    def test_for_spare(self, bowling):
+        bowling.roll(5)
+        bowling.roll(5)
+        bowling.roll(5)
+        bowling.roll(0)
+        assert bowling.score() == 20
 
     
     
