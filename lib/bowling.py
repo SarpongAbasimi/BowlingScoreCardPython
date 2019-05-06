@@ -7,13 +7,13 @@ class Bowling:
     def roll(self, pins):
         self.error(pins)
         self.check_frame_length()
-        
+
         self.frame.append(pins)
         self.all_rolls.append(pins)
 
     def score(self):
-        result = sum(self.all_rolls)
-        return result
+        for pin_down in range(len(self.all_rolls)):
+            return sum(self.all_rolls)
 
     def error(self, pins):
         if len(self.frame) == 1 and self.frame[0] + pins > 10:
@@ -23,5 +23,3 @@ class Bowling:
         if len(self.frame) >= 2:
             self.frame =[]
             self.current_frame += 1
-
-    
