@@ -1,12 +1,13 @@
 <h1 align='centre'>
 Bowling Challenge.
 </h1>
-```
+
+
  Week 5 challenge at Makers was to write an algorithm
  to calculate bowling score. After getting to a good stage 
  in the challenge , I decided to try and also solve it in python
- in the Makers way (TDD). **[Here](https://github.com/SarpongAbasimi/bowling-challenge)** is the JS solution for this challenge.
- ```
+ in the Makers way (TDD). [Here](https://github.com/SarpongAbasimi/bowling-challenge) is the JS solution for this challenge.
+
 
 > Note, the kata is not yet completed.
 
