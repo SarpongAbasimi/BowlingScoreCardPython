@@ -23,6 +23,13 @@ class Test_Bowling:
         bowling.roll(3)
         bowling.roll(4)
         bowling.roll(2)
-        assert bowling._current_frame == 2
+        assert bowling.current_frame == 2
+    
+    def test_throw_error(self, bowling):
+        bowling.roll(9)
+        with pytest.raises(Exception) as e:
+            assert bowling.roll(4)
+        assert 'You can only pin 10 bolls in a roll' in str(e.value)
+
     
     
