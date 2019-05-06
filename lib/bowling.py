@@ -25,12 +25,3 @@ class Bowling:
         if len(self.frame) >= 2:
             self.frame =[]
             self.current_frame += 1
-
-b = Bowling()
-b.roll(5)
-b.roll(5)
-b.roll(1)
-b.roll(5)
-b.roll(5)
-b.roll(1)
-print(b.score())
