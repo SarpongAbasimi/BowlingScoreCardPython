@@ -1,4 +1,4 @@
-<h1 align ='centre'>
+<h1 align ='center'>
 Bowling Challenge.
 </h1>
 
@@ -11,7 +11,7 @@ Bowling Challenge.
 
 > Note, the kata is not yet completed.
 
-<h4 align='centre'>
+<h4 align='center'>
 To use Application.
 </h4>
 
@@ -23,7 +23,7 @@ To use Application.
 - Once all dpendencies have been installed cd in ``BowllingChallenge``.
 - ``run pytest`` to run test.
 
-<h4 align='centre'>
+<h4>
 To Dos.
 </h4>
 
@@ -36,11 +36,11 @@ To Dos.
 - Write algorithm to calculate strikes.
 - Refactor codebase.
 
-<h4 align='centre'>
-Tech Stack
+<h4>
+Tech Stack.
 </h4>
 
 - Python3.
 - Pytest.
-- Git & Github
+- Git & Github.
 
