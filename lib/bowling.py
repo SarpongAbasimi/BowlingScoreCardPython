@@ -13,6 +13,10 @@ class Bowling:
 
     def score(self):
         score = 0
+        for index in range(0,len(self.all_rolls)-1, 2):
+            if(self.all_rolls[index] + self.all_rolls[index + 1] == 10):
+                score += self.all_rolls[index] + self.all_rolls[index + 1] + self.all_rolls[index + 2]
+
         for pin_down in range(len(self.all_rolls)):
             score += self.all_rolls[pin_down]
         return score
